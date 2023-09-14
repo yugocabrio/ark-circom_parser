@@ -264,6 +264,7 @@ dependencies = [
  "ark-circom",
  "ark-crypto-primitives",
  "ark-ec",
+ "ark-ff",
  "ark-groth16",
  "ark-serialize",
  "ark-std",

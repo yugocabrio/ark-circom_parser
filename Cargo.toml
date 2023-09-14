@@ -16,3 +16,4 @@ byteorder = "=1.4.3"
 ark-ec = { version = "=0.4.1", default-features = false, features = ["parallel"] }
 ark-serialize = { version = "=0.4.1", default-features = false }
 hex = "=0.4.3"
+ark-ff = "0.4.1"
