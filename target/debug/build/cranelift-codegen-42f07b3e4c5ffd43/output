@@ -1,0 +1,19 @@
+cargo:rerun-if-changed=build.rs
+Writing generated file: /Users/yugo/zero_knowledge_proof/ark_circom_parser/target/debug/build/cranelift-codegen-42f07b3e4c5ffd43/out/settings.rs
+Writing generated file: /Users/yugo/zero_knowledge_proof/ark_circom_parser/target/debug/build/cranelift-codegen-42f07b3e4c5ffd43/out/types.rs
+Writing generated file: /Users/yugo/zero_knowledge_proof/ark_circom_parser/target/debug/build/cranelift-codegen-42f07b3e4c5ffd43/out/opcodes.rs
+Writing generated file: /Users/yugo/zero_knowledge_proof/ark_circom_parser/target/debug/build/cranelift-codegen-42f07b3e4c5ffd43/out/inst_builder.rs
+Writing generated file: /Users/yugo/zero_knowledge_proof/ark_circom_parser/target/debug/build/cranelift-codegen-42f07b3e4c5ffd43/out/settings-x86.rs
+Writing generated file: /Users/yugo/zero_knowledge_proof/ark_circom_parser/target/debug/build/cranelift-codegen-42f07b3e4c5ffd43/out/settings-arm64.rs
+cargo:rerun-if-changed=src/clif.isle
+cargo:rerun-if-changed=src/prelude.isle
+cargo:rerun-if-changed=src/isa/x64/inst.isle
+cargo:rerun-if-changed=src/isa/x64/lower.isle
+cargo:rerun-if-changed=src/clif.isle
+cargo:rerun-if-changed=src/prelude.isle
+cargo:rerun-if-changed=src/isa/aarch64/inst.isle
+cargo:rerun-if-changed=src/isa/aarch64/lower.isle
+cargo:rerun-if-changed=src/clif.isle
+cargo:rerun-if-changed=src/prelude.isle
+cargo:rerun-if-changed=src/isa/s390x/inst.isle
+cargo:rerun-if-changed=src/isa/s390x/lower.isle
