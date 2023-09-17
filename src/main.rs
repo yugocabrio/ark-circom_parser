@@ -6,8 +6,9 @@ use ark_bn254::{Bn254, Fr};
 use ark_ff::PrimeField;
 use ark_ff::biginteger::BigInt;
 use ark_ec::pairing::Pairing;
+use ark_circom::circom::r1cs_reader;
 
-mod r1cs_reader;
+// mod r1cs_reader;
 
 pub type Constraints<E> = (ConstraintVec<E>, ConstraintVec<E>, ConstraintVec<E>);
 pub type ConstraintVec<E> = Vec<(usize, <E as Pairing>::ScalarField)>;
@@ -50,7 +51,7 @@ fn extract_constraints_from_r1cs(filename: &str) -> Result<Vec<Constraints<Bn254
 }
 
 fn main() {
-    let filename = "src/toy_copy.r1cs";
+    let filename = "src/toy.r1cs";
 
     match extract_constraints_from_r1cs(filename) {
         Ok(constraints) => {
